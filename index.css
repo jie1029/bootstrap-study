@@ -1,0 +1,60 @@
+.add{
+    background-color:#e4f5f4;
+}
+
+.link{
+    color: black;
+}
+.link:hover{
+    text-decoration: none;
+    color: black;
+}
+.btn-naver{
+    background-color: #05c3a7;
+    color: white;
+    border-radius: 30px;
+    font-size: small;
+}
+.btn-naver:hover{
+    background-color: #04b89d;
+    color: white;
+}
+.exit{
+    font-size: small;
+    color: gray;
+    text-align: center;
+    float: left;
+    height: 100%;
+}
+
+
+.addText{
+    margin: 0 15px 0 15px;
+}
+
+.whale{
+    font-weight: 700;
+    font-family: 'Mulish', sans-serif;
+}
+.naver-font{
+    color: #03c75a;
+    font-weight: 900;
+    
+}
+
+.subNav{
+    font-size: small
+}
+
+.sublink{
+    font-weight: 600;
+    color: gray
+}
+.naver-logo{
+    filter: brightness(120%);
+}
+/* @media screen and (max-width:1000px){
+    .add{
+        display: none;
+    }
+} */
