@@ -36,12 +36,11 @@
     font-weight: 700;
     font-family: 'Mulish', sans-serif;
 }
+
 .naver-font{
     color: #03c75a;
-    font-weight: 900;
-    
+    font-weight: 900;    
 }
-
 .subNav{
     font-size: small
 }
@@ -52,6 +51,17 @@
 }
 .naver-logo{
     filter: brightness(120%);
+}
+.naver-nav *{
+    font-weight: 600;
+    color: black;
+}
+
+.naver-font-color{
+    color: #03c75a;
+}
+.nav-link:hover{
+    color: gray
 }
 /* @media screen and (max-width:1000px){
     .add{
