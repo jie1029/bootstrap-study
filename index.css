@@ -9,6 +9,14 @@
     text-decoration: none;
     color: black;
 }
+
+.link2{
+    color: black;
+}
+.link2:hover{
+    color: black;
+}
+
 .btn-naver{
     background-color: #05c3a7;
     color: white;
@@ -27,27 +35,25 @@
     height: 100%;
 }
 
-
-.addText{
-    margin: 0 15px 0 15px;
-}
-
 .whale{
     font-weight: 700;
     font-family: 'Mulish', sans-serif;
 }
 
-.naver-font{
-    color: #03c75a;
+.naver-font-weight{
     font-weight: 900;    
 }
-.subNav{
+.font-small{
     font-size: small
 }
 
 .sublink{
-    font-weight: 600;
-    color: gray
+    
+    color: gray;
+    font-size:small;
+}
+.sublink:hover{
+    color: gray;
 }
 .naver-logo{
     filter: brightness(120%);
@@ -62,6 +68,54 @@
 }
 .nav-link:hover{
     color: gray
+}
+.animated-text{
+    position: absolute;
+    height: 30px;
+    overflow: hidden;
+}
+.line{
+    text-transform: uppercase;
+    text-align: center;
+}
+.line:first-child{
+    animation: anim 10s infinite;
+}
+
+
+@keyframes anim{
+    0%{
+        margin-top: 0;
+    }
+    16%{
+        margin-top: -23px;
+    }
+    33%{
+        margin-top: -46px;
+    }
+    50%{
+        margin-top: -69px;
+    }
+    66%{
+        margin-top: -46px;
+    }
+    82%{
+       margin-top: -23px; 
+    }
+    100%{
+        margin-top: 0;
+    }
+}
+
+.sub-nav-item{
+    border: 1px solid lightgray;
+    border-radius: 0;
+
+}
+
+.small-strong{
+    font-size: small; 
+    font-weight: 600;
 }
 /* @media screen and (max-width:1000px){
     .add{

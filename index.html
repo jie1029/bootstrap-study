@@ -11,6 +11,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Mulish:wght@200;500&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css"
         integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" crossorigin="anonymous">
+
     <title>t</title>
 </head>
 
@@ -20,10 +21,11 @@
             <div class="row">
                 <div class="col-10">
                     <a href="https://whale.naver.com/details/security/?=main&wpid=RydDy7" class="link ">
-                        <span class="naver-font">NAVER</span> <span class="whale mr-4">whale </span>
+                        <span class="naver-font-color naver-font-weight">NAVER</span> <span class="whale mr-4">whale
+                        </span>
                         <img src="https://static-whale.pstatic.net/main/img_security@2x.png" width="230" height="49"
                             class="mr-3" alt>
-                        <span class="addText d-none d-xl-inline">
+                        <span class="mx-3 d-none d-xl-inline">
                             가짜 사이트? 악성 프로그램? <strong> 웨일 브라우저는 즉시 차단! </strong>
                         </span>
                         <span class="d-none d-lg-inline d-xl-none">
@@ -47,7 +49,7 @@
 
     <div class="container">
         <div class="row">
-            <div class="col subNav mt-2" style="text-align: right;">
+            <div class="col font-small mt-2" style="text-align: right;">
                 <span class="border-right">
                     네이버를 시작페이지로
                     <i class="fas fa-angle-right mx-2 shadow-sm p3 mb-4 bg-white rounded"></i>
@@ -59,29 +61,28 @@
             </div>
 
         </div>
-        <div class="row justify-content-md-center">
+        <div class="row justify-content-md-center sticky-top align-middle">
             <div class="col-2">
                 <a href="#">
-                    <img src="http://blogfiles.naver.net/MjAxODA4MjRfNTgg/MDAxNTM1MDcxOTU0MTM4.B5Vt_k-QQHEk6c0Rb1oWFk6S0ISro51xJ5XF42Hgg5Ig.SRxSX4IHgNmbPFo5WsUuLBv4uNcWFAPP2Lgkmh-jS6Ag.PNG.dnduf75/%B7%CE%B0%ED%B4%D9%BF%EE%B7%CE%B5%E5-%B3%D7%C0%CC%B9%F6%B7%CE%B0%EDpng-1.png"
-                        class="img-fluid naver-logo">
+                    <img src="./images/naver-logo.png" class="img-fluid naver-logo d-none d-md-inline">
                 </a>
             </div>
-            <div class="col-10 col-md-6 sticky-top">
-                <div class="input-group" style="background-color: #03c75a; padding: 1px;">
+            <div class="col-12 col-md-6 ">
+                <div class="input-group" style="background-color: #03c75a; padding: 1px">
                     <input type="text" class="form-control" style="border-radius: 0px;">
                     <button class="btn"><img src="./images/search.png" width="20"></button>
-   
+
                 </div>
             </div>
         </div>
-        
+
     </div>
 
-    <div class="border-top border-bottom mt-4">
+    <div class="border-top border-bottom my-4">
         <div class="container">
             <div class="row">
-                <div class="col-12 ">
-                    <ul class="nav naver-nav ">
+                <div class="col-12">
+                    <ul class="nav naver-nav">
                         <li class="nav-item">
                             <a class="nav-link naver-font-color" href="#">메일</a>
                         </li>
@@ -103,7 +104,7 @@
                         <li class="nav-item">
                             <a class="nav-link naver-font-color" href="#">TV</a>
                         </li>
-                    
+
                         <li class="nav-item">
                             <a class="nav-link " href="#">사전</a>
                         </li>
@@ -116,9 +117,7 @@
                         <li class="nav-item">
                             <a class="nav-link " href="#">부동산</a>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link " href="#">지도</a>
-                        </li>
+
                         <li class="nav-item">
                             <a class="nav-link " href="#">영화</a>
                         </li>
@@ -131,24 +130,437 @@
                         <li class="nav-item">
                             <a class="nav-link " href="#">웹툰</a>
                         </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                더보기
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <a class="dropdown-item" href="#">응 구라얌</a>
+
+                            </div>
+                        </li>
                     </ul>
+
+
                 </div>
             </div>
-            
+
         </div>
     </div>
 
     <div class="container">
-        <div class="col-8">
-            
+        <div class="row">
+            <div class="col-12 col-md-8">
+                <img src="./images/다낭추억2.jpg" class="img-fluid">
+
+            </div>
+            <div class="d-none d-md-inline col-4 bg-light border">
+
+                <p class="font-small mt-3 d-none d-lg-block">네이버를 더 안전하고 편리하게 이용하세요</p>
+                <input type="text" class="form-control d-none d-md-inline mt-2" placeholder="UserID">
+                <input type="password" class="form-control mt-3 d-none d-md-inline" placeholder="UserPW">
+                <button type="button" class="btn btn-success btn-block mt-3" style="background-color: #03c75a;"><span
+                        class="naver-font-weight">NAVER</span> 로그인</button>
+                <a href="#" class="link font-small mt-2 float-left d-none d-xl-inline"><svg width="1em" height="1em"
+                        viewBox="0 0 16 16" class="bi bi-lock-fill mx-1" fill="currentColor"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <path d="M2.5 9a2 2 0 0 1 2-2h7a2 2 0 0 1 2 2v5a2 2 0 0 1-2 2h-7a2 2 0 0 1-2-2V9z" />
+                        <path fill-rule="evenodd" d="M4.5 4a3.5 3.5 0 1 1 7 0v3h-1V4a2.5 2.5 0 0 0-5 0v3h-1V4z" />
+                    </svg>아이디 &middot; 비밀번호찾기</a>
+                <a href="#" class="link font-small mt-2 float-lg-right d-none d-xl-inline"><svg width="1em" height="1em"
+                        viewBox="0 0 16 16" class="bi bi-person-fill" fill="currentColor"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd"
+                            d="M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1H3zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6z" />
+                    </svg> 회원가입</a>
+
+            </div>
         </div>
-        <div class="col-4">
+        <div class="row">
+            <div class="col-12 col-md-8">
+                <div class="bg-light border mt-2 p-2">
+                    <a href="#" class="link font-small">귭-in 뉴스<i
+                            class="fas fa-angle-right mx-2 bg-white rounded"></i></a>
+
+                    <div class="d-inline animated-text">
+                        <div class="line">
+                            이번 과제 너무 힘들어...
+                        </div>
+                        <div class="line">
+                            부트스트랩 아직도 잘 몰라..
+                        </div>
+                        <div class="line">
+                            앞으로 열심히 해야겠다고 다짐...
+                        </div>
+                        <div class="line">
+                            너무 피곤해..
+                        </div>
+                    </div>
+                    <div class=" float-right font-small link d-none d-lg-inline align-middle">
+                        <strong><span style="color:rgb(65, 65, 212);">네이버뉴스 &middot; </span> 연예 스포츠 경제</strong>
+                    </div>
+
+                </div>
+            </div>
+            <div class="col-4 border mt-2 p-2 d-none d-md-inline">
+                <a href="http://coronacatch.com" class="link"><img src="./images/coronacatch-logo.png" width="24"
+                        height="24">
+                    <span class="font-small d-none d-lg-inline">코로나바이러스감염증 19 <span style="color:red">현황</span></span>
+                    <i class="fas fa-angle-right mx-2 bg-white rounded"></i>
+                </a>
+            </div>
+
+        </div>
+        <div class="row">
+            <div class="col-8">
+                <div class="font-small mt-3">
+                    <img src="./images/communication.png" class="mr-3"><strong>규빈스탠드</strong>
+                    <i class="fas fa-angle-right mx-2 bg-white rounded"></i>
+                    구독한 언론사 &middot; <strong>전체 언론사</strong>
+
+                    <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-gear-fill float-right"
+                        fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd"
+                            d="M9.405 1.05c-.413-1.4-2.397-1.4-2.81 0l-.1.34a1.464 1.464 0 0 1-2.105.872l-.31-.17c-1.283-.698-2.686.705-1.987 1.987l.169.311c.446.82.023 1.841-.872 2.105l-.34.1c-1.4.413-1.4 2.397 0 2.81l.34.1a1.464 1.464 0 0 1 .872 2.105l-.17.31c-.698 1.283.705 2.686 1.987 1.987l.311-.169a1.464 1.464 0 0 1 2.105.872l.1.34c.413 1.4 2.397 1.4 2.81 0l.1-.34a1.464 1.464 0 0 1 2.105-.872l.31.17c1.283.698 2.686-.705 1.987-1.987l-.169-.311a1.464 1.464 0 0 1 .872-2.105l.34-.1c1.4-.413 1.4-2.397 0-2.81l-.34-.1a1.464 1.464 0 0 1-.872-2.105l.17-.31c.698-1.283-.705-2.686-1.987-1.987l-.311.169a1.464 1.464 0 0 1-2.105-.872l-.1-.34zM8 10.93a2.929 2.929 0 1 0 0-5.86 2.929 2.929 0 0 0 0 5.858z" />
+                    </svg>
+                    <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-grid-fill float-right mx-2"
+                        fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd"
+                            d="M1 2.5A1.5 1.5 0 0 1 2.5 1h3A1.5 1.5 0 0 1 7 2.5v3A1.5 1.5 0 0 1 5.5 7h-3A1.5 1.5 0 0 1 1 5.5v-3zm8 0A1.5 1.5 0 0 1 10.5 1h3A1.5 1.5 0 0 1 15 2.5v3A1.5 1.5 0 0 1 13.5 7h-3A1.5 1.5 0 0 1 9 5.5v-3zm-8 8A1.5 1.5 0 0 1 2.5 9h3A1.5 1.5 0 0 1 7 10.5v3A1.5 1.5 0 0 1 5.5 15h-3A1.5 1.5 0 0 1 1 13.5v-3zm8 0A1.5 1.5 0 0 1 10.5 9h3a1.5 1.5 0 0 1 1.5 1.5v3a1.5 1.5 0 0 1-1.5 1.5h-3A1.5 1.5 0 0 1 9 13.5v-3z" />
+                    </svg>
+                </div>
+
+            </div>
+            <div class="col-4">
+
+                <div class="font-small mt-3 ">
+                    <a href="#" class="link float-left d-none d-lg-inline">쇼핑</a>
+
+                    <a href="#" class="link mx-1 float-lg-right d-none d-lg-inline"> MEN</a>
+                    <a href="#" class="link mx-1 float-lg-right d-none d-lg-inline"> 쇼핑몰</a>
+                    <a href="#" class="link mx-1 float-lg-right d-none d-lg-inline"> 상품</a>
+                </div>
+            </div>
+            <div class="w-100"></div>
+            <div class="col-12 col-md-8">
+
+                <table class="table table-bordered mt-2">
+                    <tbody>
+                        <tr>
+                            <td>
+                                <a href="#" class="link">양 &amp;</a>
+                            </td>
+                            <td>
+                                <a href="#" class="link">이 &lt;</a>
+                            </td>
+                            <td>
+                                <a href="#" class="link">너 &gt;</a>
+                            </td>
+                            <td>
+                                <a href="#" class="link">무 &iexcl;</a>
+                            </td>
+                            <td>
+                                <a href="#" class="link">많 &cent;</a>
+                            </td>
+                            <td>
+                                <a href="#" class="link">아 &pound;</a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <a href="#" class="link">여 &curren;</a>
+                            </td>
+                            <td>
+                                <a href="#" class="link">기 &yen;</a>
+                            </td>
+                            <td>
+                                <a href="#" class="link">는 <img src="./images/poop.png"></a>
+                            </td>
+                            <td>
+                                <a href="#" class="link">날 <img src="./images/poop.png"></a>
+                            </td>
+                            <td>
+                                <a href="#" class="link">먹 &para;</a>
+                            </td>
+                            <td>
+                                <a href="#" class="link">ㄱ &raquo;</a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <a href="#" class="link">어 &Ograve;</a>
+                            </td>
+                            <td>
+                                <a href="#" class="link">디 <img src="./images/poop.png"></a>
+                            </td>
+                            <td>
+                                <a href="#" class="link">까 &Ouml;</a>
+                            </td>
+                            <td>
+                                <a href="#" class="link">지 &thetasym;</a>
+                            </td>
+                            <td>
+                                <a href="#" class="link">해 <img src="./images/poop.png"></a>
+                            </td>
+                            <td>
+                                <a href="#" class="link">야 &sigma;</a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <a href="#" class="link">하 <img src="./images/poop.png"></a>
+                            </td>
+                            <td>
+                                <a href="#" class="link">너 <img src="./images/poop.png"></a>
+                            </td>
+                            <td>
+                                <a href="#" class="link">무 <img src="./images/poop.png"></a>
+                            </td>
+                            <td>
+                                <a href="#" class="link">졸 <img src="./images/poop.png"></a>
+                            </td>
+                            <td>
+                                <a href="#" class="link">려 <img src="./images/poop.png"></a>
+                            </td>
+                            <td>
+                                <a href="#" class="link">요 <img src="./images/poop.png"></a>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+                <div>
+                    <strong>오늘 읽을만한 글</strong> <span class="font-small" style="color: gray;">주제별로 다양한 글 모음</span>
+                </div>
+                <div class="row">
+                    <div class="col-12 mt-2">
+                        <ul class="nav nav-tabs nav-fill naver-nav">
+                            <li class="nav-item"><a class="nav-link" href="#">엔터</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#">스포츠</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#">자동차</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#">웹툰</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#">경제M</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#">푸드</a></li>
+                            <li class="nav-item"><a class="nav-link active" href="#">게임</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#">영화</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12 mt-3">
+                        <div class="card mb-2" style="max-height: 150px;">
+                            <div class="row">
+                                <div class="col-md-3 d-none d-lg-inline">
+                                    <img src="./images/내사진1.jpg" class="card-img" alt="내사진1" style="max-height: 150px;">
+                                </div>
+                                <div class="col-12 col-lg-9">
+                                    <div class="card-body" style="max-height: 150px; overflow: hidden;">
+                                        <h5 class="card-title">'게임 속 최강 규빈' 누가 떠오르시나요?</h5>
+                                        <p class="card-text">우리가 즐기는 게임 속에는 빼놓을 수 없는 역할이 존재합니다. 바로 규빈(kyubin)인데요.</p>
+                                        <p class="card-text">규빈은 악당을 일컫는 말로 이들의 수장들이 오늘 이야기할 주제의 대상이라 할 수 있죠...</p>
+                                        <p class="card-text"><small class="text-muted">규염둥이 &middot; 어제 </small></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card mb-2" style="max-height: 150px;">
+                            <div class="row">
+                                <div class="col-md-3 d-none d-lg-inline">
+                                    <img src="./images/내사진2.jpg" class="card-img" alt="내사진2" style="max-height: 150px;">
+                                </div>
+                                <div class="col-12 col-lg-9">
+                                    <div class="card-body" style="max-height: 150px; overflow: hidden;">
+                                        <h5 class="card-title">똑똑히 봐라! 귀염의 요원, 규염둥이 '규빈'</h5>
+                                        <p class="card-text">안녕하세요! 에이크라운 포스트를 다시 한 번 찾아주셔서 감사합니다~ 오늘은 에이크라운 에서 처음 함께하는
+                                            게임 포스팅과 함께 할거에요! 어떤 게임일지 정말 기대가 되는데요!...</p>
+                                        <p class="card-text"><small class="text-muted">규염둥이 &middot; 4일전 </small></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card mb-2" style="max-height: 150px;">
+                            <div class="row">
+                                <div class="col-md-3 d-none d-lg-inline">
+                                    <img src="./images/내사진3.jpg" class="card-img" alt="내사진3" style="max-height: 150px;">
+                                </div>
+                                <div class="col-12 col-lg-9">
+                                    <div class="card-body" style="max-height: 150px; overflow: hidden;">
+                                        <h5 class="card-title">[규빈 실사판 시리즈 5판] 규빈 리빅 실사판 1화 "규빈법 대공개!"</h5>
+                                        <p class="card-text">지구 최초 리빅 실사반?!! 배틀규라운드 포스트를 애독해주시는 여러분, 오늘은 실사판으로 찾아온신규 클래식
+                                            맵; 리빅 업데이트 소식으로 찾아왔습니다!! ...</p>
+                                        <p class="card-text"><small class="text-muted">규염둥이 &middot; 1주일 전</small></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-4">
+                <div id="carouselExampleInterval" class="carousel slide mt-2" data-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active" data-interval="5000">
+                            <img src="./images/내사진3.jpg" class="w-100" alt="...">
+                        </div>
+                        <div class="carousel-item" data-interval="5000">
+                            <img src="./images/내사진2.jpg" class=" w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="./images/내사진1.jpg" class=" w-100" alt="...">
+                        </div>
+                    </div>
+                    <a class="carousel-control-prev" href="#carouselExampleInterval" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#carouselExampleInterval" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+                </div>
+            </div>
+
 
         </div>
     </div>
 
+    <hr>
+
+    <!-- <kyu class="container">
+        나는 멍청이 야야~ 야!야!야!야!
+    </kyu> -->
+
+    <footer class="container">
+        <div class="row">
+            <div class="col-4">
+                <div class="row">
+                    <div class="col-5">
+                        <img class="img-fluid"
+                            src="https://ssl.pstatic.net/tveta/libs/1296/1296989/6b67f987e66a77d742b8_20200717154718535.png">
+                    </div>
+                    <div class="col-7">
+                        <p style="font-size:small; color: #03c75a;" class="m-0">
+                            서울지방경찰청 사이버안전과
+                        </p>
+
+                        <a style="font-size:small;" class="m-0 link2"
+                            href="https://post.naver.com/viewer/postView.nhn?volumeNo=28735238&memberNo=33301266">
+                            <strong>메신저피싱 예방, 클릭!</strong> </a>
+                        <p style="font-size:x-small;" class="m-0"> 급한 돈을 보내달라고? </p>
+                        <p style="font-size:x-small;" class="m-0"> 메신저로 상품권을 달라고? </p>
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-4">
+                <div class="row">
+                    <div class="col-5">
+                        <img class="img-fluid"
+                            src="https://ssl.pstatic.net/tveta/libs/1288/1288466/59a94c6010cd09e3378d_20200717154200174.jpg">
+                    </div>
+                    <div class="col-7">
+                        <p style="font-size:small; color: #03c75a;" class="m-0">
+                            뮤지션리그
+                        </p>
+
+                        <a style="font-size:small;" class="m-0 link2"
+                            href="https://music.naver.com/musicianLeague/contents/index.nhn?contentId=103157">
+                            <strong>오픈 스튜디오 선정작</strong> </a>
+                        <p style="font-size:x-small;" class="m-0">
+                            <24 Years>
+                        </p>
+                        <p style="font-size:x-small;" class="m-0"> by Slowcity </p>
+
+                    </div>
+                </div>
+            </div>
+            <div class="col-4">
+                <div class="row">
+                    <div class="col-5">
+                        <img class="img-fluid"
+                            src="https://ssl.pstatic.net/tveta/libs/1287/1287075/a5bfee90cae3d5e46859_20200717155451446.png">
+                    </div>
+                    <div class="col-7">
+                        <p style="font-size:small; color: #03c75a;" class="m-0">
+                            부스트코스
+                        </p>
+
+                        <a style="font-size:small;" class="m-0 link2"
+                            href="https://www.edwith.org/boostcourse-mo-kotlin-basic1/lecture/59960"> <strong>코틀린 무료
+                                강좌</strong> </a>
+                        <p style="font-size:x-small;" class="m-0"> 자바와 호환가능한 언어?!</p>
+                        <p style="font-size:x-small;" class="m-0"> 코틀린 기초를 배워보세요 </p>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <hr>
+        <div class="row">
+            <div class="col-6">
+                <a href="https://www.naver.com/NOTICE" class="link small-strong">공지사항</a>
+            </div>
+
+            <div class="col-6 text-right">
+                <a href="https://www.naver.com/NOTICE" class="link small-strong">서비스 전체보기</a>
+            </div>
+        </div>
+        <hr>
+
+        <div class="row">
+            <div class="col-2">
+                <span class="small-strong">
+                    Creaters
+                </span>
+            </div>
+            <div class="col-10">
+                <span><a class="border-right sublink px-1" href="#"> 크리에이터</a> <a href="#" class="sublink px-1">스몰비즈니스
+                    </a></span>
+            </div>
+
+        </div>
+
+        <div class="row">
+            <div class="col-2">
+                <span class="small-strong">
+                    Partners
+                </span>
+            </div>
+            <div class="col-10">
+                <span><a class="border-right sublink px-1" href="#"> 비즈니스 &middot; 광고</a> <a href="#"
+                        class="border-right sublink px-1">스토어 개설 </a><a href="#" class="sublink px-1">규염둥이 후원 </a></span>
+            </div>
+
+        </div>
+
+        <div class="row mb-4">
+            <div class="col-2">
+                <span class="small-strong">
+                    Developers
+                </span>
+            </div>
+            <div class="col-10">
+                <span><a class="border-right sublink px-1" href="#"> 네이버 개발자 센터</a> <a href="#"
+                        class="border-right sublink px-1">오픈 API </a><a href="#" class="border-right sublink px-1">규염둥이 고용 </a>
+                        <a href="https://recruit.navercorp.com/naver/recruitMain" class="sublink px-1">인재채용</a></span>
+            </div>
+        </div>
+
+    </footer>
+
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+        integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+        crossorigin="anonymous"></script>
+
 
 </body>
-
 
 </html>
